@@ -1,7 +1,7 @@
 {
     "name": "neos/start-skel",
     "type": "framework",
-    "description": "Mini starter for PHP projetcts.",
+    "description": "Skeleton for Starter PHP web projetcts.",
     "keywords": ["framework", "starter", "simple"],
     "homepage": "http://phpstart.tk",
     "license": "MIT",
@@ -18,6 +18,8 @@
     },
     "require": {
         "php": ">=5.4.0",
+        "neos/start": "dev-master",
+        "neos/data": "dev-master",
         "neos/html": "dev-master"
     },
     "minimum-stability": "dev"
