@@ -1,2 +1,3 @@
 <?php
-include 'php/vendor/neos/start/main.php';
+define('PPHP', __DIR__.'/php/');
+include PPHP.'vendor/neos/start/scr/Neos/Start/main.php';
