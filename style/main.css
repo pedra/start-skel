@@ -15,10 +15,10 @@ body { background: #890 url(http://lorempixel.com/1024/728) 0 0 fixed; backgroun
 .sitetop .button:hover { background-color: rgba(255, 255, 255,1); box-shadow: 0 0 6px #000}
 .sitetop h1 { display: inline-block;font-size: 26px; padding:17px 10px; margin: 0; color:#999; text-shadow: 0 0 3px #111; font-weight: bold}
 
-.sitetop .plus { background-image: url(/style/icons/plus.png)}
-.sitetop .search { background-image: url(/style/icons/search.png)}
-.sitetop .github { background-image: url(/style/icons/github.png)}
-.sitetop .book { background-image: url(/style/icons/book.png)}
+.sitetop .plus { background-image: url(icons/plus.png)}
+.sitetop .search { background-image: url(icons/search.png)}
+.sitetop .github { background-image: url(icons/github.png)}
+.sitetop .book { background-image: url(icons/book.png)}
 
 .container { padding: 55px 20px 20px 20px}
 
