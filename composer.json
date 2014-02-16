@@ -14,7 +14,7 @@
         "bin-dir": "php/vendor/bin"
     },
     "archive": {
-        "exclude": ["/Documents", "/doc", "/*.json", "/*.git", "/*.md"]
+        "exclude": ["/doc", "/*.json", "/.git", "/*.md"]
     },
     "require": {
         "php": ">=5.4.0",
