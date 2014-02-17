@@ -1,4 +1,13 @@
-<?php
+#!/usr/bin/env php
+<?php 
+
+//cli mode
+if (php_sapi_name() == 'cli') {
+	exec('explorer http://localhost');//windows only
+	exec('cd '.dirname(__DIR__).' & php -S localhost:80');
+	exit();
+}
+
 //Defines for CORE
 defined('PPHP')     || define('PPHP', __DIR__.'/'); 
 defined('VENDOR')   || define('VENDOR', PPHP . 'vendor/');
