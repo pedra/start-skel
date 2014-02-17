@@ -1,1 +1,1 @@
-<?php include 'php/main';
+<?php include 'php/start';
