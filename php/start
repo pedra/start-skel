@@ -1,12 +1,14 @@
-#!/usr/bin/env php
-<?php 
+<?php  
 
 //cli mode
 if (php_sapi_name() == 'cli') {
-	exec('explorer http://localhost');//windows only
+	if(strpos(PHP_OS, 'WIN') !== false) exec('explorer http://localhost');//windows only
 	exec('cd '.dirname(__DIR__).' & php -S localhost:80');
 	exit();
 }
+
+//DateTime
+date_default_timezone_set('America/Sao_Paulo');
 
 //Defines for CORE
 defined('PPHP')     || define('PPHP', __DIR__.'/'); 
