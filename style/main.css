@@ -9,7 +9,7 @@
 body { background: #890 url(http://lorempixel.com/1024/728) 0 0 fixed; background-attachment: cover} 
 
 .sitetop { position: absolute; top:40%; left:0; right: 0; height: 60px; background: rgba(0,0,0,.8);}
-.sitetop .maintop { margin: 0 auto; width: 400px}
+.sitetop .maintop { margin: 0 auto; width: 450px}
 .sitetop .button { float:left; display: block; width:50px; height: 50px; margin:5px 2px 0 2px; cursor: pointer;
     background-color: rgba(255,255,255, 0.4); background-position: center center; background-repeat: no-repeat; }
 .sitetop .button:hover { background-color: rgba(255, 255, 255,1); box-shadow: 0 0 6px #000}
