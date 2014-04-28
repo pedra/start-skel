@@ -40,8 +40,9 @@ class_alias('Neos\Html\Doc', 'View');
 
 //Decode route and instantiate controller
 $controller = new Neos\Start\Controller(REQST, o::app('controller'));
-$controller->setP404(false); //Page error404 enabled
-$content = ($controller->solve() == false) ? (new View('404'))->render() : $controller->run();
+$content = $controller->solve() == false
+	? (new View('404'))->render() 
+	: $controller->run();
 
 //Template Engine
 (new Neos\Start\Output($content))
