@@ -44,5 +44,5 @@ $controller->setP404(false); //Page error404 enabled
 $content = ($controller->solve() == false) ? (new View('404'))->render() : $controller->run();
 
 //Template Engine
-$out = new Neos\Start\Output($content);
-$out->send();//produce and display HTML
+(new Neos\Start\Output($content))
+		->send(); //produce and display HTML
