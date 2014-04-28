@@ -3,7 +3,8 @@
  * date:  2014/02/08
  */
 
-/* Jquery */
-$(document).ready(function() {
-    //your code here
-})
+window.onload = function() {
+
+    //Your code...
+
+}
