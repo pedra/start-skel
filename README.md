@@ -1,4 +1,4 @@
-Sart-skel
+Start-skel
 ==========
 
 Skeleton for Start PHP web projects.
