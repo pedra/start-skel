@@ -1,5 +1,6 @@
 Start-skel
 ==========
+[![Latest Stable Version](https://poser.pugx.org/neos/start-skel/v/stable)](https://packagist.org/packages/neos/start-skel) [![Total Downloads](https://poser.pugx.org/neos/start-skel/downloads)](https://packagist.org/packages/neos/start-skel) [![Latest Unstable Version](https://poser.pugx.org/neos/start-skel/v/unstable)](https://packagist.org/packages/neos/start-skel) [![License](https://poser.pugx.org/neos/start-skel/license)](https://packagist.org/packages/neos/start-skel)
 
 Skeleton for Start PHP web projects.
 
